@@ -52,6 +52,10 @@ class Encoder(nn.Module):
 
 
 class ImageDLVM:
+    """
+    This is the VAE class. I personally don't like the name VAE and I prefer DLVM, which stands for Deep Latent Variable Model. This name seems to be
+    better connected with theory, e.g., latent variable models, expectation maximization and so on.
+    """
 
     def __init__(self, z_dim, x_dim, lr=1e-3):
 
