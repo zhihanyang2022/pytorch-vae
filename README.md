@@ -25,7 +25,7 @@ By default, the script above trains a VAE with a latent dimension of 2 for 10 ep
 
 This script above logs to tensorboard (i.e., as `.local` in `src/runs`), so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis. I already have a log file in side `src/runs`, which you can visualize without training anything yourself.
 
-Code for openning tensorboard:
+Code for opening tensorboard:
 
 ```bash
 tensorboard --logdir=runs
@@ -33,7 +33,7 @@ tensorboard --logdir=runs
 
 After training finishes, the model will get saved to `src/saved_model`. 
 
-This script below saves a png to `src`:
+This script below loads from `src/saved_model` and saves a png to `src`:
 
 ```bash
 python plot_posterior_means.py
