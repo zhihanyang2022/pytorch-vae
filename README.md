@@ -1,8 +1,6 @@
 # pytorch-vae
 Elegant VAE using torch.distributions, trained on MNIST.
 
-By default, the code trains and visualizes a VAE with a latent dimension of 2.
-
 ## Visualizations
 
 Generations | Posterior Means (Train Set)
@@ -22,6 +20,8 @@ Run training script:
 ```bash
 python train_mnist.py
 ```
+
+By default, the script above trains a VAE with a latent dimension of 2 for 10 epochs.
 
 This script above logs to tensorboard (i.e., as `.local` in `src/runs`), so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis.
 
