@@ -23,7 +23,7 @@ Run training script:
 python train_mnist.py
 ```
 
-This script above logs to tensorboard, so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis.
+This script above logs to tensorboard (i.e., as `.local` in `src/runs`), so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis.
 
 After this script finishes, the model will get saved to `src/saved_model`. 
 
