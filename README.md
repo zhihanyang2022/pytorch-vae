@@ -23,7 +23,7 @@ python train_mnist.py
 
 By default, the script above trains a VAE with a latent dimension of 2 for 10 epochs.
 
-This script above logs to tensorboard (i.e., as `.local` in `src/runs`), so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis.
+This script above logs to tensorboard (i.e., as `.local` in `src/runs`), so you can use tensorboard to visualize training stats (ELBO, KL, reconstruction) and generations on a per-epoch basis. I already have a log file in side `src/runs`, which you can visualize without training anything yourself.
 
 After this script finishes, the model will get saved to `src/saved_model`. 
 
