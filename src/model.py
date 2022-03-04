@@ -84,7 +84,7 @@ class ImageDLVM:
         # reconstruction
         zs = posterior_over_zs.rsample()  # sample using the re-parametrization trick
         rec = self.p_x_given_z(zs).log_prob(xs).mean()
-        # elbo
+        # elbo (estimated using one sample per posterior)
         elbo = - kl + rec
         # backpropagation and gradient step
         loss = - elbo
