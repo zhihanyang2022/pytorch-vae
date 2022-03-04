@@ -2,7 +2,7 @@
 
 Unbelievably minimal VAE using torch.distributions, trained on MNIST.
 
-When you read the code, you might have the illusion that you are reading pseudocode (since I rely heavily on `torch.distributions` and functions that are readily available in PyTorch - so things seem too simple to be true)! 
+When you read the code, you might have the illusion that you are reading pseudocode! I rely heavily on `torch.distributions` and functions that are readily available in PyTorch, so things can look too simple to be true.
 
 Feel free to drop a question in Issues.
 
