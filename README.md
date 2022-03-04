@@ -1,4 +1,6 @@
 # pytorch-vae
 Elegant VAE using torch.distributions, trained on MNIST.
 
-<img src="src/posterior_means.png" width="500">
+<p align="center">
+<img src="src/posterior_means.png" width="400" >
+</p>
