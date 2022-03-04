@@ -7,15 +7,9 @@ By default, the code trains and visualizes a VAE with a latent dimension of 2.
 
 Generations:
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/43589364/156720883-fc5d522d-2ab4-4ddd-af65-7c842221383a.png" width="400" >
-</p>
-
-Posterior means:
-
-<p align="center">
-<img src="src/posterior_means.png" width="400" >
-</p>
+DOF of 2 LL | DOF of 2 Viz |
+:--------:|:------:|
+<img src="https://user-images.githubusercontent.com/43589364/156720883-fc5d522d-2ab4-4ddd-af65-7c842221383a.png"> | <img src="src/posterior_means.png">
 
 ## How to run
 
