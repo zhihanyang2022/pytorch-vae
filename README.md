@@ -1,4 +1,5 @@
-# pytorch-vae
+# Variational Autoencoder
+
 Elegant VAE using torch.distributions, trained on MNIST.
 
 ## Visualizations
