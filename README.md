@@ -46,6 +46,10 @@ python plot_posterior_means.py
 
 ## Dependencies
 
+I'm using a MacBook Pro with M1 chip, so I needed to install the correct Anaconda installer from [here](https://docs.conda.io/en/latest/miniconda.html) in order to install `tensorflow-macos`.
+
+Follow the instructions [here](https://caffeinedev.medium.com/how-to-install-tensorflow-on-m1-mac-8e9b91d93706) for more details.
+
 Please adapt `tensorflow-macos` to your own device.
 
 ```
